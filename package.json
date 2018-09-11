@@ -1,0 +1,30 @@
+{
+  "name": "packsuit",
+  "version": "1.0.0",
+  "description": "web pack",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "null"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/packsuit/packsuit.git"
+  },
+  "keywords": [
+    "web",
+    "pack",
+    "node",
+    "react",
+    "vue"
+  ],
+  "author": "Spencer Ye",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/packsuit/packsuit/issues"
+  },
+  "homepage": "https://github.com/packsuit/packsuit#readme"
+}
