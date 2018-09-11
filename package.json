@@ -3,12 +3,36 @@
   "version": "1.0.0",
   "description": "web pack",
   "main": "index.js",
+  "bin": {
+    "packsuit": "bin/index"
+  },
   "directories": {
     "example": "examples",
-    "lib": "lib"
+    "lib": "lib",
+    "bin": "bin"
   },
   "scripts": {
     "test": "null"
+  },
+  "devDependencies": {
+    "koa": "^2.5.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "minimist": "^1.2.0",
+    "style-loader": "^0.23.0",
+    "url-loader": "^1.1.1",
+    "js-beautify": "^1.8.6",
+    "webpack": "^4.17.1",
+    "webpack-entrypoints-plugin": "^1.1.0"
   },
   "repository": {
     "type": "git",
