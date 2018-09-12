@@ -28,7 +28,11 @@ module.exports = function (env) {
     /**
      * common js, we will just concat it.
      */
-    commonFile: {
+    commonJS: {
+      common:[
+        'a.js',
+        'b.js'
+      ]
       /**
        * react js,usually,we don't use webpack to pack the reactjs;
        */

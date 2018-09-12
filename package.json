@@ -27,11 +27,12 @@
     "babel-loader": "^8.0.2",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
+    "js-beautify": "^1.8.6",
     "mini-css-extract-plugin": "^0.4.2",
     "minimist": "^1.2.0",
     "style-loader": "^0.23.0",
+    "uglify-js": "^3.4.9",
     "url-loader": "^1.1.1",
-    "js-beautify": "^1.8.6",
     "webpack": "^4.17.1",
     "webpack-entrypoints-plugin": "^1.1.0"
   },
