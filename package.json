@@ -12,7 +12,8 @@
     "bin": "bin"
   },
   "scripts": {
-    "test": "null"
+    "test": "null",
+    "test:examples": "cd examples && node build-all"
   },
   "devDependencies": {
     "koa": "^2.5.2",

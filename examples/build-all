@@ -1,0 +1,8 @@
+const fs = require('fs')
+const build = require('./build');
+
+fs.readdirSync('./').forEach(src=>{
+  if(src.indexOf('.')===-1&&src.indexOf('build')===-1){
+    build(src);
+  }
+});
