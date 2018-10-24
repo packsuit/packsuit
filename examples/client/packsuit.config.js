@@ -88,7 +88,6 @@ module.exports = function (env) {
         }
       },
       {
-        title: 'test',
         //template: 'templates/template.html',
         output: 'test.html',
         source: {
